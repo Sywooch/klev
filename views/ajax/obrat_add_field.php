@@ -1,0 +1,1 @@
+<?=\yii\widgets\ActiveForm::begin()->field($model,'names[]')->textInput()?>

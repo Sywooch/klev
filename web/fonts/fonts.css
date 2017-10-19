@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "introblack";
+    src: url("/fonts/Intro/intro_black.ttf");
+}
+@font-face {
+    font-family: "introblackitalic";
+    src: url("/fonts/Intro/intro_black_italic.ttf");
+}
+@font-face {
+    font-family: "introbold";
+    src: url("/fonts/Intro/intro_bold.ttf");
+}
+@font-face {
+    font-family: "introbolditalic";
+    src: url("/fonts/Intro/intro_bold_italic.ttf");
+}
+@font-face {
+    font-family: "introcondblackfree";
+    src: url("/fonts/Intro/intro_cond_black_free.ttf");
+}
+@font-face {
+    font-family: "introcondlightfree";
+    src: url("/fonts/Intro/intro_cond_light_free.ttf");
+}
+@font-face {
+    font-family: "introinline";
+    src: url("/fonts/Intro/intro_inline.ttf");
+}
+@font-face {
+    font-family: "introregular";
+    src: url("/fonts/Intro/intro_regular.ttf");
+}
+@font-face {
+    font-family: "introregularitalic";
+    src: url("/fonts/Intro/intro_regular_italic.ttf");
+}
+
+/*PT SANS*/
+@font-face {
+    font-family: "PTSansRegular";
+    src: url("/fonts/PTSansRegular/PTSansRegular.eot");
+    src: url("/fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
+    url("/fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PTSansItalic";
+    src: url("/fonts/PTSansItalic/PTSansItalic.eot");
+    src: url("/fonts/PTSansItalic/PTSansItalic.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/PTSansItalic/PTSansItalic.woff") format("woff"),
+    url("/fonts/PTSansItalic/PTSansItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PTSansBold";
+    src: url("/fonts/PTSansBold/PTSansBold.eot");
+    src: url("/fonts/PTSansBold/PTSansBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/PTSansBold/PTSansBold.woff") format("woff"),
+    url("/fonts/PTSansBold/PTSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/*LATO*/
+@font-face {
+    font-family: "latobold";
+    src: url("/fonts/lato/LATOBOLD.TTF");
+}
+@font-face {
+    font-family: "latobolditalic";
+    src: url("/fonts/lato/LATOBOLDITALIC.TTF");
+}
+@font-face {
+    font-family: "latoitalic";
+    src: url("/fonts/lato/LATOITALIC.TTF");
+}
+@font-face {
+    font-family: "latolight";
+    src: url("/fonts/lato/LATOLIGHT.TTF");
+}
+@font-face {
+    font-family: "latolightitalic";
+    src: url("/fonts/lato/LATOLIGHTITALIC.TTF");
+}
+@font-face {
+    font-family: "latoregular";
+    src: url("/fonts/lato/LATOREGULAR.TTF");
+}
+/*PROXIMA*/
+@font-face {
+    font-family: "proximanobablack";
+    src: url("/fonts/proxima1/PROXIMANOVA-BLACK_0.OTF");
+}
+@font-face {
+    font-family: "proximanovabold";
+    src: url("/fonts/proxima1/PROXIMANOVA-BOLD_0.OTF");
+}
+@font-face {
+    font-family: "proximanovaboldit";
+    src: url("/fonts/proxima1/PROXIMANOVA-BOLDIT_0.OTF");
+}
+@font-face {
+    font-family: "proximanovalight";
+    src: url("/fonts/proxima1/PROXIMANOVA-LIGHT_0.OTF");
+}
+@font-face {
+    font-family: "proximanovalightit";
+    src: url("/fonts/proxima1/PROXIMANOVA-LIGHTIT_0.OTF");
+}
+@font-face {
+    font-family: "proximanovareg";
+    src: url("/fonts/proxima1/PROXIMANOVA-REG.OTF");
+}
+@font-face {
+    font-family: "proximanovaregit";
+    src: url("/fonts/proxima1/PROXIMANOVA-REGIT_0.OTF");
+}
+@font-face {
+    font-family: "proximanovaxbold";
+    src: url("/fonts/proxima1/PROXIMANOVA-XBOLD_0.OTF");
+}

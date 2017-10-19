@@ -1,0 +1,174 @@
+/*
+если необходимо перекрывать стили
+*/
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1650px) {
+    .lc-index-right__head_welcome_text{
+        font-size: 25px;
+    }
+    .lc-index-right__informers_right_title_btn button{
+        font-size: 14px;
+    }
+    .lc-index-right__informers_right_title_name{
+        max-width:257px;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space:nowrap;
+    }
+    .lc-index-right__informers_right_add_block1_list1_item_content_form .help-block{
+        padding-left: 0;
+    }
+    .lc-index-right__informers_left.lc-index{
+        width:100%;
+    }
+    .lc-index-right__informers_right.lc-index{
+        width:100%;
+    }
+    .lc-index-right__informers_left.reserve{
+        height:auto;
+        width:100%;
+    }
+    .lc-index-right__informers_right.reserve{
+        width:100%;
+        height:auto;
+        overflow: auto;
+    }
+    .lc-index-right__informers_left_block1.reserve{
+        height:auto;
+    }
+    .lc-index-right__informers.reserve{
+        overflow: auto;
+    }
+    .lc-index-right__informers_left.lc-index{
+        height:auto;
+    }
+    .lc-index-right__informers_right.lc-index{
+        height:auto;
+    }
+    /*test*/
+}
+@media (max-width: 1280px) {
+    .lc-index-right__head_welcome_text{
+        font-size: 25px;
+    }
+    /*test*/
+}
+
+@media (max-width: 992px) {
+
+    /*test*/
+}
+
+@media (max-width: 768px) {
+
+    /*test*/
+}
+
+@media (max-width: 480px) {
+
+}
+
+/*
+если без перекрываний стилей
+*/
+/*
+.label{
+	padding:12px;
+}
+@media (max-width:479px){
+	.label{
+		padding:5px;
+	}
+}
+@media (max-width:769px) and (min-width:480px){
+	.label{
+		padding:6px;
+	}
+}
+@media (max-width:991px) and (min-width:768px){
+	.label{
+		padding:7px;
+	}
+}
+@media (max-width:1199px) and (min-width:992px){
+	.label{
+		padding:8px;
+	}
+}
+@media (min-width:1200px){
+	.label{
+		padding:9px;
+	}
+}
+*/
+
+/*
+http://bootstrap-3.ru/css.php
+по типу бутстрапа
+переклываются стили и берется тот который имеется
+*/
+/*
+.label{
+	padding:12px;
+}
+@media (min-width:480px){
+	.label{
+		padding:5px;
+	}
+}
+@media (min-width:768px){
+	.label{
+		padding:6px;
+	}
+}
+@media (min-width:992px){
+	.label{
+		padding:7px;
+	}
+}
+@media (min-width: 1200px){
+	.label{
+		padding:8px;
+	}
+}
+*/
+
+/*
+http://bootstrap-3.ru/css.php
+по типу бутстрапа
+без перекрываний стилей
+*/
+/*
+.label{
+	padding:12px;
+}
+@media (max-width:480px){
+	.label{
+		padding:6px;
+	}
+}
+@media (min-width:481px) and (max-width: 768px){
+	.label{
+		padding:7px;
+	}
+}
+@media (min-width:769px) and (max-width: 992px){
+	.label{
+		padding:9px;
+	}
+}
+@media (min-width:991px) and (max-width:1200px){
+	.label{
+		padding:0px;
+	}
+}
+@media (min-width:1201px){
+	.label{
+		padding:10px;
+	}
+}
+*/

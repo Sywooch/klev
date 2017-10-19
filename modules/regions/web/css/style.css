@@ -1,0 +1,34 @@
+.geobase_list uL{
+    list-style-type: none;
+}
+.custom_ul_hide{
+    display: none;
+}
+.custom_tree_ul>li>a>span.glyphicon-chevron-down{
+    transition:all 0.2s 0s linear;
+    -moz-transition:all 0.2s 0s linear;
+    -webkit-transition:all 0.2s 0s linear;
+    -o-transition:all 0.2s 0s linear;
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+.custom_tree_ul>li.show>a>span.glyphicon-chevron-down{
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.custom_tree_ul li.show>ul{
+    display: block;
+}
+.geobase-btn{
+    padding-left: 20px;
+}
